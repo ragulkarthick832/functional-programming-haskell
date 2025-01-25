@@ -1,0 +1,20 @@
+# Chapter - 1
+
+## Haskel - lazy evaluator
+
+example - double(double(double(xs)))
+imperative programming languages pass through the entire list xs once
+to double each element
+create a new list with the doubled values
+pass this list to the next function
+
+So requires mulitple passes over the list.
+
+
+functional programming perspective:
+firt call (double(xs)):
+haskel doesn't immediately compute the doubled list. its just a functional call
+
+The first doubleMe (from the innermost call) requests the value for the first element, so it computes the doubled value 2 (from 1).
+The second doubleMe receives 2 and doubles it to 4.
+Finally, the first doubleMe doubles 4 to 8 and returns the first element of the final list as 8.
