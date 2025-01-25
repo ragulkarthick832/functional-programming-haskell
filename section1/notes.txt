@@ -29,3 +29,21 @@ Howeverm adding something to the beginning of a list is a nearly instantaneous o
 
 : => first operator is single element
 ++ => 2 parameters as list
+
+
+
+### More list Operations
+
+head => first element
+tail => excpet first element
+last => last element
+init => except last element
+
+
+### List Comprehension
+
+similar to set comprehensions.
+predicates are applied after the computations are performed
+drawing values from several lists, every combination of elements.
+
+_ => temporary variable
