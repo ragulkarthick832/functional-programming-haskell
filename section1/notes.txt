@@ -20,3 +20,12 @@ The second doubleMe receives 2 and doubles it to 4.
 Finally, the first doubleMe doubles 4 to 8 and returns the first element of the final list as 8.
 
 haskel - statically typed, automatic type inference
+
+
+### Haskel - concatenation(++) vs cons(:)
+
+when we put together two list, haskell has to walk through the entire first list (the one on the left side of ++)
+Howeverm adding something to the beginning of a list is a nearly instantaneous operation
+
+: => first operator is single element
+++ => 2 parameters as list
