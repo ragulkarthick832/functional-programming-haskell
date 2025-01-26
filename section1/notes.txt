@@ -47,3 +47,12 @@ predicates are applied after the computations are performed
 drawing values from several lists, every combination of elements.
 
 _ => temporary variable
+
+
+### tuples
+heterogeneous and fixed size
+unlike list we cant compare the two tuples
+
+
+### zip functon
+used to produce list of pairs. parameter : two lists
