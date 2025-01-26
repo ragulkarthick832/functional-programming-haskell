@@ -13,3 +13,13 @@ tuple matching (x,_)
 ### Type Class
 Its an interface that defines some behavior. If a type is an instance of a type class, then it supports and implements the behavior
 the type class decribes
+
+=> symbol. Everything before this symbol is called a class constraint
+Examples : Ord is type clas for types whose values can be put in some order
+show type class can be represented as strings
+read can be considered the opposite type class of show (takes a string)
+
+num class type : [Int, Integer, Float or double]
+
+num class type includes every numbers (decimal, whole, floating, double)
+Integral Class included only int and Integer , no decimal
