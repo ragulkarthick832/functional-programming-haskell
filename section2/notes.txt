@@ -1,0 +1,15 @@
+## Chapter - 2
+
+
+### BELIEVE THE TYPE
+In Haskell, every expression's type is known at compile time, which leads to safer code.
+:: => has a type of
+
+Type vs Type Variable vs Type Class
+list matching x:xs
+tuple matching (x,_)
+
+
+### Type Class
+Its an interface that defines some behavior. If a type is an instance of a type class, then it supports and implements the behavior
+the type class decribes
