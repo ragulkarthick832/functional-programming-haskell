@@ -1,0 +1,9 @@
+## Chapter -3
+
+### SYNTAX IN FUNCTIONS
+
+
+try to avoid non-exhaustive patterns
+gaurds is similar to if else expression
+
+### Difference between let and where
