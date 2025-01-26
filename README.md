@@ -5,3 +5,6 @@ haskell-introduction: lazy evaluation, [++ vs :], list operations, list comprehe
 
 ### Section2
 haskell-type: meaning of :: , list matching, tuple matching, type vs type variable vs type class
+
+### Section3
+case, gaurds, let
