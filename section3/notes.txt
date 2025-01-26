@@ -7,3 +7,12 @@ try to avoid non-exhaustive patterns
 gaurds is similar to if else expression
 
 ### Difference between let and where
+let - local
+where - the whole function and in the all statements of guard.
+
+
+### Case Expression
+case expression of pattern -> result
+		   pattern -> result
+
+		   ...
