@@ -1,0 +1,11 @@
+-- implement zipWith
+-- It takes a function and two lists as parameters and then joins two lists by applying the function
+
+
+
+zipWith' :: (a -> b -> c) -> [a] -> [b] -> [c]
+zipWith' f (x:xs) (y:ys)
+ | f [] _ = []
+ | f _ [] = []
+ | f [] [] = []
+ | otherwise = (f x, f y) : zipWith' f xs ys
