@@ -30,3 +30,14 @@ example:
 
 ### Printing Functions
 when we type 2+2 in ghci terminal, result 4 is calculated and show result is initiated
+
+
+### takeWhile
+predicates and a list
+starting at the beginnning of the list, it returns the list's elements as long as the predicate holds true. Once an element is found for which 
+the predicate doesn't hold true, the function stops and and returns the resulting list.
+
+
+### Lambdas
+lambdas are anonymous functions that we use when we need a function only once
+
