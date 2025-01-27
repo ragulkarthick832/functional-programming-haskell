@@ -8,3 +8,6 @@ haskell-type: meaning of :: , list matching, tuple matching, type vs type variab
 
 ### Section3
 case, gaurds, let
+
+### Section4
+recursion, some own implementation of inbuilt functions
