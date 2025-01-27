@@ -40,4 +40,15 @@ the predicate doesn't hold true, the function stops and and returns the resultin
 
 ### Lambdas
 lambdas are anonymous functions that we use when we need a function only once
+A lamda is an anonymous function (a function without a name)
+\ followed by a parameter, an arrow ->
 
+mainly used for inline function , no need to create a separate function and call it
+
+### folds
+folds can be used to implement any function where you traverse a list once, element by element
+and then return something based on that.
+folds takes a binary function, a starting value and a list to fold up
+
+
+foldr vs foldl -> time complexity will be less in foldr as compared to foldl
