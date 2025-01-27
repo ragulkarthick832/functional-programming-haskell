@@ -11,3 +11,7 @@ case, gaurds, let
 
 ### Section4
 recursion, some own implementation of inbuilt functions
+
+
+### Section5
+Higher-Order-Functions, Curried Functions, Sectioning, Printing Functions, takeWhile, Lambdas, folds
