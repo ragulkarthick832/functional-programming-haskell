@@ -22,3 +22,11 @@ example:
 
 ( ++ "Hello") -- right part is fixed - <text>Hello
 ("Hello" ++ ) -- left part is fixed -- Hello<text>
+
+
+
+-- important -- sectioning can be applied for the function which can be represented in infix notation
+
+
+### Printing Functions
+when we type 2+2 in ghci terminal, result 4 is calculated and show result is initiated
