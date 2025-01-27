@@ -1,3 +1,24 @@
 ### Chapter 5
 
 ### Higher-Order Functions
+haskell functions can take functions as parameters and return functions as return values.
+A function that does either of these things is called a higher-order function.
+
+
+
+### Curried Functions
+default- one parameter - function 
+mulitple parameter done by curried function
+
+ 
+### Sectioning
+Sectioning refers to surrounding an infix function with parentheses and providing only one of its operator
+this creates a new function that takes the missing operand as it argument
+example:
+3+5 -- applies + to 3 and 5
+
+( +5) -- right operand is fixed
+(5+ ) -- left operand is fixed
+
+( ++ "Hello") -- right part is fixed - <text>Hello
+("Hello" ++ ) -- left part is fixed -- Hello<text>
